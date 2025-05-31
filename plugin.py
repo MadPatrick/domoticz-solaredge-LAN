@@ -11,6 +11,10 @@
 """
 <plugin key="SolarEdge_ModbusTCP" name="SolarEdge ModbusTCP" author="Addie Janssen" version="1.1.2" externallink="https://github.com/addiejanssen/domoticz-solaredge-modbustcp-plugin">
     <params>
+    <description>
+	<br/><h2>SolarEdge_ModbusTCP</h2><br/>
+        version: 1.1.2
+    </description>
         <param field="Address" label="Inverter IP Address" width="150px" required="true" />
         <param field="Port" label="Inverter Port Number" width="100px" required="true" default="502" />
         <param field="Mode3" label="Inverter Modbus device address" width="100px" required="true" default="1" />
